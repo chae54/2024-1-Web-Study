@@ -19,3 +19,18 @@ __리액트의 등장__
 리액트를 불신했다. 하지만 넷플릭스, 야후 등 리액트를 사용하여 사이트를 구축하기 시작했고 선언적으로  
 컴포넌트를 작성할 수 있다는 점과 가상 DOM을 통해 DOM 조작을 효율적으로 할 수 있다는 장점으로 다수에게  
 인정받기 시작했다. 현재 웹 프론트엔드 개발은 리액트가 점령하였으며 엄청나게 빠른 개발속도를 보여주고 있다.
+
+__과제 수행__  
+
+HTML에서 부등호는 묶인 부분을 태그라고 한다. 여는 태그와 닫는 태그 두 종류가 있고 닫는 태그는  
+이름 앞에 /를 써 구분한다. 외부 CSS를 적용하려면 <link rel="stylesheet" href="/style.css">을 써줘야한다  
+CSS에서 가운데 정렬 하는 방법은 여러가지이지만 textalign, position 과 transform, grid 등을 쓸 수 있지만  
+오늘은 display:flex 를 사용해보았다.  
+```
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue
+}
+```
